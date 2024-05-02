@@ -1,11 +1,18 @@
 package com.tra24;
 
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
 
+
+@RestController
 public class InvoiceSystem {
+
     public static List<Item> items = new ArrayList<>();
     public static HashMap<Integer, Invoice> invoiceHashMap = new HashMap<>();
     public static Scanner sc = new Scanner(System.in);
@@ -14,6 +21,8 @@ public class InvoiceSystem {
     public static Integer shopItemsCounter = 0;
 
 
+
+    @GetMapping("run")
     public static void main(String[] args) {
         try {
             Integer option = 0;

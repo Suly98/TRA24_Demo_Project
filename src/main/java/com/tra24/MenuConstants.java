@@ -1,5 +1,10 @@
 package com.tra24;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Scanner;
+
 public class MenuConstants {
 
     public static final String mainMenu =
@@ -19,5 +24,6 @@ public class MenuConstants {
                 "\n2-Set Shop Name (data should be saved)" +
                 "\n3-Set Invoice Header (Tel / Fax / Email / Website)" +
                 "\n4-Go Back";
+
 }
 
