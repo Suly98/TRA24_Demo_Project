@@ -135,13 +135,9 @@ public class InvoiceSystem {
         try {
             do {
 
-                //TODO: Change to constants class for menu as per requirements
+                //TODO: Change to constants class for menu as per requirements -- fixed
                 shopSettingsCounter++;
-                System.out.println("            Shop Settings:      ");
-                System.out.println("1-Load Data (Items and invoices)");
-                System.out.println("2-Set Shop Name (data should be saved)");
-                System.out.println("3-Set Invoice Header (Tel / Fax / Email / Website)");
-                System.out.println("4-Go Back");
+                System.out.println(MenuConstants.shopMenu);
                 System.out.print("Enter your option: ");
                 option = sc.nextInt();
                 if (option == 1) {

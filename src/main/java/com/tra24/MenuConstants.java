@@ -13,6 +13,11 @@ public class MenuConstants {
                     "\n7-Program Statistics" +
                     "\n8-Exit";
 
-
+    public static final String shopMenu =
+            "            Shop Settings:      " +
+                "\n1-Load Data (Items and invoices)" +
+                "\n2-Set Shop Name (data should be saved)" +
+                "\n3-Set Invoice Header (Tel / Fax / Email / Website)" +
+                "\n4-Go Back";
 }
 
