@@ -2,7 +2,7 @@ package com.tra24;
 
 import java.util.Objects;
 
-public class Customer implements customerInterface {
+public class Customer implements CustomerInterface {
     Integer id;
     String fullName;
     String phoneNo;
